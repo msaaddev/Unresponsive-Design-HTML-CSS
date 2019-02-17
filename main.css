@@ -3,8 +3,29 @@ body{
 }
 
 .upper_container{
-
     background: #4020DF;
     height: 80px;
-    background-
+    margin: 0px;
+
+}
+
+header img{
+    width: 4%;
+    border-radius: 50%;
+    margin: 10px 10px 10px 25px;
+    float: left;
+}
+
+.logo_text{
+    font-size: 1.7em;
+    display: inline-block;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 22px 10px 10px 15px;
+    font-weight: bold;
+
+}
+
+.line{
+    font-weight: 100;
 }
