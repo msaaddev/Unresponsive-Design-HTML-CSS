@@ -1,30 +1,30 @@
-body{
+body {
     background-color: #FFFFFF;
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header{
+header {
     background: #4020DF;
     height: 80px;
     margin: 0px;
-
 }
 
-header img{
+header img {
     width: 4%;
     border-radius: 50%;
     margin: 10px 10px 10px 25px;
     float: left;
 }
 
-.logo_text{
+.logo_text {
     font-size: 1.6em;
     display: inline-block;
     color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 22px 10px 10px 15px;
 }
-.logo_text2{
+
+.logo_text2 {
     float: right;
     font-size: 1.4em;
     display: inline;
@@ -33,47 +33,81 @@ header img{
     margin: 26px 10px 10px 15px;
 }
 
-.line{
+.line {
     font-weight: 400;
     font-size: 17px;
 }
 
-header a:link{
+header a:link {
     color: aliceblue;
     text-decoration: none;
 }
 
-header a:hover{
+header a:hover {
     border-bottom: solid white;
     padding-bottom: 22px;
 }
 
-header a:visited{
+header a:visited {
     color: aliceblue;
     text-decoration: none;
 }
 
-.main{
+.main {
     width: 100%;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-.space{
+.space {
     height: 70px;
 }
 
-.main article{
+.main article {
     text-align: center;
 }
 
-article img{
+.cover {
     width: 1000px;
-    height: 370px;
+    height: 350px;
     border-radius: 1%;
 }
 
-article a:hover{
+article a:hover {
     opacity: 0.8;
+    color: blue;
+}
+
+article a:link {
+    text-decoration: none;
+}
+
+.heading {
+    color: #404040;
+    font-size: 30px;
+    text-align: center;
+    width: 70%;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.intro {
+    width: 57%;
+    display: inline-block;
+    text-align: center;
+}
+
+.me {
+    width: 4%;
+    border-radius: 50%;
+    display: inline;
+    float: left;
+}
+
+.intro p {
+    text-align: left;
+    padding-left: 50px;
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
 }
