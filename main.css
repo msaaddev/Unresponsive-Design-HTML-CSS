@@ -54,5 +54,26 @@ header a:visited{
 }
 
 .main{
-    width: 70%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.space{
+    height: 70px;
+}
+
+.main article{
+    text-align: center;
+}
+
+article img{
+    width: 1000px;
+    height: 370px;
+    border-radius: 1%;
+}
+
+article a:hover{
+    opacity: 0.8;
 }
