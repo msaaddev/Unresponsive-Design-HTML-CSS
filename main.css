@@ -85,8 +85,9 @@ article a:link {
 .heading {
     color: #404040;
     font-size: 30px;
-    text-align: center;
-    width: 70%;
+    text-align: left;
+    margin-left: 285px;
+    width: 100%;
     font-weight: 600;
     margin-bottom: 20px;
 }
