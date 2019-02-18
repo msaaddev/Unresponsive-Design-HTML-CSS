@@ -118,5 +118,12 @@ article a:link {
     /* font-family: 'Courier New', Courier, monospace; */
     /* letter-spacing: 2px; */
     line-height: 35px;
-    color:
+    color:##404040;
+}
+
+.separator{
+
+    width: 50%;
+    opacity: .5;
+    margin-top: 3%;
 }
